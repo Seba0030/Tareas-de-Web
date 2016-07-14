@@ -1,0 +1,77 @@
+
+#wrpper{
+     width: 830px;
+     margin:auto;
+}
+img {
+   margin:auto;
+}
+
+header{
+	background-color: url(..image/cafe-creme-banner18 [158185].jpg)
+    width: 100%;
+    height: 350px;
+}
+
+nav > ul {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+footer{
+	clear:both;
+}
+
+#nav > li {
+	display: inline-block;
+	padding-right: 80px;
+}
+
+article {
+	float:left;
+	widows: 47%;
+}
+p {
+	color: brown;
+}
+
+.abajo {
+	color : white ;
+}
+	
+nav {
+	background-color: brown;
+    text-align:center;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+footer  {
+	background-color: brown;
+clear: both;
+}
+
+a {
+  text-decoration: none;
+  width:200px;
+  display:inline-block;
+  padding:20px 25px 34px 25px;
+  font-family: helvetica;
+  color:white;
+}
+
+a:link, a:visited{
+background-color: brown;
+
+
+}
+
+a:hover, a:active{
+background-color:orange; 
+
+}
+
+

@@ -1,0 +1,69 @@
+#wrapper{
+	width:1000px;
+    margin:auto;
+}
+
+img {
+   display:block;
+   margin:auto;
+   max-width: 100%;
+}
+
+button {
+    color:white;
+    background-color:black;
+}
+
+nav > ul {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+section {
+	width: 58%;
+	float: left;
+}
+
+aside {
+	width: 26%;
+	float: left;
+    border:1px solid black;
+}
+
+#nav > li {
+	display: inline-block;
+	padding-right: 80px;
+}
+
+footer{
+	clear:both;
+	color:white;
+	background-color:black;
+}
+
+nav {
+	text-align:center;
+}
+
+@media screen and (max-width: 600px){
+#nav > li {
+	display: block;
+	padding-right: 80px;
+}
+
+section{
+	float:none;
+    width: 90%;
+}
+
+aside{
+	float:none;
+	width:50%;
+}
+
+a {
+text-decoration: none;
+}
+
+
