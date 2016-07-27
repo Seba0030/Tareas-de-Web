@@ -1,0 +1,58 @@
+*{box-sizing: border-box;}
+#wrapper{
+	background-color: white;
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+article{
+	width: 50%;
+	float: left;
+	padding: 20px;
+
+}
+footer{
+	clear: both;
+	background-color: #626262;
+	padding: 1px;
+	font-color:black;
+
+}
+
+img{
+	display: block;
+	margin: auto;
+	height: 450px;
+	width: 960px;
+}
+
+.esquina img{
+	float:left;
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 250px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.abajo {color:black;
+    margin: auto;
+}
+
+body{ background: white;
+	 color:black;
+	background: url(../image/lf6n9hT.png);
+}
+
+
+.rigth img{
+      float:right;
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 250px;
+}
