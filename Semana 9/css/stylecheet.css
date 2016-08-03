@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+#wrapper{
+	background-color:Black; 
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+article{
+	width: 50%;
+	float: left;
+	padding: 20px;
+
+}
+footer{
+	clear: both;
+	background-color: #626262;
+	padding: 1px;
+	font-color:black;
+
+}
+
+img{
+	display: block;
+	margin: auto;
+	height: 450px;
+	width: 960px;
+}
+
+.esquina img{
+	float:left;
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 250px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.abajo {color:black;
+    margin: auto;
+}
+
+body{ background: black;
+	 color:black;
+	background: url(../image/Black-Wallpaper-HD.jpg) no-repeat center;
+	background-size: cover;
+
+	}
+
+
+.rigth img{
+      float:right;
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 250px;
+}
+
+.esquina p{
+	padding: 20px;
+	color:gray;
+}
+
+
+.rigth p{
+	padding: 20px;
+	color:gray;
+}
+
+.esquina h1{
+	padding: 20px;
+	color:red;
+}
+
+.rigth h1{
+	padding: 20px;
+	color:red;
+}
+
+
+
