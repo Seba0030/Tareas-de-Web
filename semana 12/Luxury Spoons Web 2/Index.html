@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/stylecheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+    <title>
+    Luxury Spoons
+    </title>
+</head>
+<body>
+<div id="wrapper">
+
+<header>
+<img src="image/Logo Spoon Nuevo.png">
+</header>
+<nav>
+    <ul>
+       <li><a href="../Luxury Spoons Web/index.html">Home</a></li>
+       <li><a href="../Luxury Spoons Web 2/index.html">Store</a></li>
+       <li><a href="../Luxury Spoons Web 3/index.html">About us</a></li>
+       <input type="text" name="search" placeholder="Search..">
+    </ul>
+</nav>
+
+<div class="w3-content w3-section" style="max-width:960px">
+  <img class="mySlides" src="image/Sin título-5.png" style="width:100%">
+  <img class="mySlides" src="image/Sin título-4.png" style="width:100%">
+  <img class="mySlides" src="image/Sin título-3.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<img id="D" src="image/Store 2.png">
+
+<img id="C" src="image/Banner Abajo.png">
+
+<footer>
+<p class="abajo">© Luxury Spoons Ltd 2016 - All Rights Reserved - Luxury Gifts & Home Accessorie.</p>
+</footer>
+</body>
+</html>
